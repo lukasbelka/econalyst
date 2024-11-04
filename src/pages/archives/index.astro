@@ -16,24 +16,24 @@ if (!SITE.showArchives) {
 const posts = await getCollection("blog", ({ data }) => !data.draft);
 
 const MonthMap: Record<string, string> = {
-  "1": "January",
-  "2": "February",
-  "3": "March",
+  "1": "Januar",
+  "2": "Februar",
+  "3": "März",
   "4": "April",
-  "5": "May",
-  "6": "June",
-  "7": "July",
+  "5": "Mai",
+  "6": "Juni",
+  "7": "Juli",
   "8": "August",
   "9": "September",
-  "10": "October",
+  "10": "Oktober",
   "11": "November",
-  "12": "December",
+  "12": "Dezember",
 };
 ---
 
 <Layout title={`Archives | ${SITE.title}`}>
   <Header activeNav="archives" />
-  <Main pageTitle="Archives" pageDesc="All the articles I've archived.">
+  <Main pageTitle="Archives" pageDesc="Alle archivierten Beiträge.">
     {
       Object.entries(
         getPostsByGroupCondition(posts, post =>

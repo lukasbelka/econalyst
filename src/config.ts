@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://www.econalyst.de/", // replace this with your deployed domain
   author: "Lukas Belka",
   profile: "https://www.lukasbelka.com/",
-  desc: "Mein Blog über Wirtschaft, Business und Technologie",
+  desc: "Mein Blog über Wirtschaft, Data Analytics und Technologie",
   title: "Econalyst",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,

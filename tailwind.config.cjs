@@ -12,6 +12,11 @@ module.exports = {
   darkMode: ["selector", "[data-theme='dark']"],
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
+    extend: {
+      fontSize: {
+        'katex': '2.5em', // Define a custom font size named "katex"
+      },
+    },
     // Remove the following screen breakpoint or add other breakpoints
     // if one breakpoint is not enough for you
     screens: {

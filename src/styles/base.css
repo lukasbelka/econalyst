@@ -67,6 +67,22 @@
   .prose h2#table-of-contents + p {
     @apply hidden;
   }
+ /* ===== katex ===== */
+
+  /* Increase size for all KaTeX elements */
+  .katex {
+    font-size: 2.5em !important;
+  }
+
+/* Increase size for display math (block-level) */
+.katex-mathml {
+  font-size: 2.5em !important;
+}
+
+/* Increase size for inline math */
+.katex-html {
+  font-size: 2.5em !important;
+}
 
   /* ===== scrollbar ===== */
   html {

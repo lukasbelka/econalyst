@@ -1,6 +1,6 @@
 ---
 author: Lukas Belka
-pubDatetime: 2022-09-23T15:22:00Z
+pubDatetime: 2024-11-04T15:00:00Z
 title: "Der Durchschnitt, das Arithmetische Mittel"
 slug: durchschnitt-arithmetisches-mittel
 tags:
